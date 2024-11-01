@@ -15,7 +15,6 @@ import {
   Title,
   Image,
   Text,
-  Group,
   Avatar,
 } from "@mantine/core";
 
