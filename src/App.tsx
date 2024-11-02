@@ -91,7 +91,7 @@ function App() {
           size="xl"
           leftSection={<IconBrandMastodon />}
         >
-          Twitter
+          Mastodon
         </Button>
         <Button
           component="a"
