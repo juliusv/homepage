@@ -2,6 +2,7 @@ import {
   IconBrandBluesky,
   IconBrandGithub,
   IconBrandLinkedin,
+  IconBrandMastodon,
   IconBrandTwitter,
   IconBrandYoutube,
 } from "@tabler/icons-react";
@@ -80,6 +81,15 @@ function App() {
           href="https://twitter.com/juliusvolz"
           size="xl"
           leftSection={<IconBrandTwitter />}
+        >
+          Twitter
+        </Button>
+        <Button
+          component="a"
+          target="_blank"
+          href="https://chaos.social/@juliusvolz"
+          size="xl"
+          leftSection={<IconBrandMastodon />}
         >
           Twitter
         </Button>
