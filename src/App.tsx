@@ -52,10 +52,15 @@ function App() {
       <Stack align="center" p="xl">
         <Avatar size={110} src={juliusHeadshot} alt="Julius Volz" />
         <Title c="gray.7">Julius Volz</Title>
-        {/* <Text c="dimmed">
-          julius.volz@gmail.com&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;julius.volz@promlabs.com
-        </Text> */}
-        <Group>
+        <Stack gap="xs" hiddenFrom="xs">
+          <Anchor c="dimmed" href="mailto:julius.volz@gmail.com">
+            julius.volz@gmail.com
+          </Anchor>
+          <Anchor c="dimmed" href="mailto:julius.volz@gmail.com">
+            julius.volz@promlabs.com
+          </Anchor>
+        </Stack>
+        <Group visibleFrom="xs">
           <Anchor c="dimmed" href="mailto:julius.volz@gmail.com">
             julius.volz@gmail.com
           </Anchor>
