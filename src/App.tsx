@@ -74,21 +74,21 @@ function App() {
           component="a"
           variant="light"
           target="_blank"
-          href="https://www.linkedin.com/in/julius-volz/"
-          size="xl"
-          leftSection={<IconBrandLinkedin />}
-        >
-          LinkedIn
-        </Button>
-        <Button
-          component="a"
-          variant="light"
-          target="_blank"
           href="https://bsky.app/profile/juliusv.com"
           size="xl"
           leftSection={<IconBrandBluesky />}
         >
           Bluesky
+        </Button>
+        <Button
+          component="a"
+          variant="light"
+          target="_blank"
+          href="https://www.linkedin.com/in/julius-volz/"
+          size="xl"
+          leftSection={<IconBrandLinkedin />}
+        >
+          LinkedIn
         </Button>
         {/* <Button
           component="a"
@@ -114,16 +114,6 @@ function App() {
           component="a"
           variant="light"
           target="_blank"
-          href="https://www.youtube.com/@PromLabs"
-          size="xl"
-          leftSection={<IconBrandYoutube />}
-        >
-          YouTube
-        </Button>
-        <Button
-          component="a"
-          variant="light"
-          target="_blank"
           href="https://promlabs.com/"
           size="xl"
           leftSection={
@@ -141,6 +131,16 @@ function App() {
           }
         >
           PromLabs
+        </Button>
+        <Button
+          component="a"
+          variant="light"
+          target="_blank"
+          href="https://www.youtube.com/@PromLabs"
+          size="xl"
+          leftSection={<IconBrandYoutube />}
+        >
+          PromLabs YouTube
         </Button>
       </Stack>
     </MantineProvider>
