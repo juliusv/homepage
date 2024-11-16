@@ -3,7 +3,6 @@ import {
   IconBrandGithub,
   IconBrandLinkedin,
   IconBrandMastodon,
-  IconBrandTwitter,
   IconBrandYoutube,
 } from "@tabler/icons-react";
 import "./App.css";
@@ -90,16 +89,6 @@ function App() {
           leftSection={<IconBrandBluesky />}
         >
           Bluesky
-        </Button>
-        <Button
-          component="a"
-          variant="light"
-          target="_blank"
-          href="https://twitter.com/juliusvolz"
-          size="xl"
-          leftSection={<IconBrandTwitter />}
-        >
-          Twitter
         </Button>
         <Button
           component="a"
