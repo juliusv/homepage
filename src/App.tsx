@@ -2,7 +2,7 @@ import {
   IconBrandBluesky,
   IconBrandGithub,
   IconBrandLinkedin,
-  IconBrandMastodon,
+  // IconBrandMastodon,
   IconBrandYoutube,
 } from "@tabler/icons-react";
 import "./App.css";
@@ -90,7 +90,7 @@ function App() {
         >
           Bluesky
         </Button>
-        <Button
+        {/* <Button
           component="a"
           variant="light"
           target="_blank"
@@ -99,7 +99,7 @@ function App() {
           leftSection={<IconBrandMastodon />}
         >
           Mastodon
-        </Button>
+        </Button> */}
         <Button
           component="a"
           variant="light"
