@@ -17,6 +17,7 @@ import {
   Anchor,
   Group,
   Box,
+  List,
 } from "@mantine/core";
 
 // Import styles of packages that you've installed.
@@ -59,6 +60,31 @@ function App() {
             julius.volz@promlabs.com
           </Anchor>
         </Stack>
+        <List listStyleType="none" spacing="xs">
+          <List.Item>
+            🚀&nbsp;&nbsp;Co-founder{" "}
+            <Anchor target="_blank" href="https://prometheus.io/">
+              Prometheus
+            </Anchor>
+          </List.Item>
+          <List.Item>
+            🏢&nbsp;&nbsp;Founder{" "}
+            <Anchor target="_blank" href="https://promlabs.com/">
+              PromLabs
+            </Anchor>{" "}
+            and{" "}
+            <Anchor target="_blank" href="https://promcon.io/">
+              PromCon
+            </Anchor>
+          </List.Item>
+
+          <List.Item>
+            👨🏼‍🏫&nbsp;&nbsp;
+            <Anchor target="_blank" href="https://training.promlabs.com">
+              Teaching Prometheus
+            </Anchor>
+          </List.Item>
+        </List>
         <Group visibleFrom="xs">
           <Anchor c="dimmed" href="mailto:julius.volz@gmail.com">
             julius.volz@gmail.com
